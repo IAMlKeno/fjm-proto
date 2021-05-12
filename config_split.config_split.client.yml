@@ -1,0 +1,16 @@
+uuid: d03d0de9-f4c0-4c7e-a554-6d6881ec2284
+langcode: en
+status: true
+dependencies: {  }
+id: client
+label: Client
+description: 'Client configs'
+folder: /opt/www/d8_configs/default/splits/client
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - '*'
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,6 @@
+.htaccess
+
+
+# Some system stuff we want to ignore.
+system.logging.yml
+system.performance.yml

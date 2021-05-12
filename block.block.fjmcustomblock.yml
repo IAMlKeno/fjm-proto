@@ -1,0 +1,56 @@
+uuid: e70b16c5-4e73-486b-9083-7ddf2de9c666
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b18f42f0-8fdc-4e5c-bce9-9304d309e225'
+  module:
+    - block_content
+    - dgi_actions
+    - request_data_conditions
+  theme:
+    - dgi_i8_base
+id: fjmcustomblock
+theme: dgi_i8_base
+region: content
+weight: -33
+provider: null
+plugin: 'block_content:b18f42f0-8fdc-4e5c-bce9-9304d309e225'
+settings:
+  id: 'block_content:b18f42f0-8fdc-4e5c-bce9-9304d309e225'
+  label: 'FJM Custom block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  dgi_actions_entity_persistent_identifier_populated:
+    id: dgi_actions_entity_persistent_identifier_populated
+    identifier: ''
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
